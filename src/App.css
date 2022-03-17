@@ -1,16 +1,16 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #343A50;
-  --card-background-color: #51576D;
-  --card-background-lighter-color: #7A7F92;
-  --main-text-color:#F7F6F4;
-  --title-text-color:#3CBA8B;
+  --main-background-color: #416b93;
+  --card-background-color: #225f97;
+  --card-background-lighter-color: #8d0a52;
+  --main-text-color:#b48ff89f;
+  --title-text-color:#5900ff;
 }
 
 body{
-  background-color:var(--main-background-color);
-  /*background: url("img/background.png");
-  background-size: cover;*/
+  /*background-color:var(--main-background-color); */
+  background-image: url("https://doggostyle.art/wp-content/uploads/2022/04/dg.jpg");
+  background-size: contain;
 
   font-family: 'Patrick Hand', cursive;
   font-size: 1.1em;
@@ -18,6 +18,7 @@ body{
 
 h2, p{
   color: var(--main-text-color);
+  
 }
 
 h3{
