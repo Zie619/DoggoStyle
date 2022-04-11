@@ -493,7 +493,7 @@ const Home = (props: HomeProps) => {
                 } else {
                     setAlertState({
                         open: true,
-                        message: 'Mint failed! Please try again!',
+                        message: 'Mint might have failed because of timeout. please check your wallet to see if minted before minting again',
                         severity: 'error',
                     });
                 }
