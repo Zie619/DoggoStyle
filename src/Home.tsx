@@ -552,6 +552,8 @@ const Home = (props: HomeProps) => {
                 <WalletContainer>
                     <Logo><a href="#" target="_self" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
+                    <Logo><a href='https://www.altdeck.io/' target="_blank" rel="noopener noreferrer"><img alt=""
+                                                                                                          src="logo2.png"/></a></Logo> 
                     <Menu>
 
                     </Menu>
